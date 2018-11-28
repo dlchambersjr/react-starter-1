@@ -1,0 +1,46 @@
+body {
+  background: lighten($rootColor, 10);
+  color: $baseColor;
+  text-align: center;
+  font-family: $base-font-family;
+ 
+  h1{
+    font-size: 6vw;
+    color: $headerColor;
+  }
+
+  h2{
+    font-size: 5vw;
+  }
+
+  h3{
+    font-size: 4vw;
+  }
+
+  h4{
+    font-size: 3vw;
+  }
+
+  h5{
+    font-size: 2vw;
+  }
+
+  h6{
+    font-size: 1vw;
+  }
+
+
+  header {
+    font-weight: bold;
+    color: $headerColor;
+  }
+
+  main {
+      width:90%;
+  }
+  
+  footer {
+    background: darken($rootColor,50);
+    font-style: italic;
+  }
+}
